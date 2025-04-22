@@ -30,3 +30,13 @@ function removeDublicateValue(array) {
 
 const array3 = [1, 2, 2, 34, 5, 6, 2, 3, 4, 5, 6];
 console.log(removeDublicateValue(array3));
+
+// Reverse alphabets in array
+
+const array4 = ["I", "am", "Satyam", "Rajput"];
+for (let i = array4.length - 1; i >= 0; i--) {
+  console.log(array4[i]);
+}
+
+const array5 = ["s", "a", "t", "y", "a", "m", "s"];
+console.log(removeDublicateValue(array5));
