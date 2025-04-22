@@ -1,5 +1,5 @@
 import "./App.css";
-
+import "./JavaScript/index.js";
 function App() {
   return (
     <>
