@@ -21,3 +21,12 @@ for (let i = 1; i <= 10; i++) {
 const array2 = [10, 20, 30, 30, 10, 40, 50, 40, 60, 50];
 const removeDublicate = [...new Set(array2)];
 console.log("Remoe", removeDublicate);
+
+// With the help of Function.
+
+function removeDublicateValue(array) {
+  return array.filter((value, index, self) => self.indexOf(value) === index);
+}
+
+const array3 = [1, 2, 2, 34, 5, 6, 2, 3, 4, 5, 6];
+console.log(removeDublicateValue(array3));
