@@ -15,3 +15,9 @@ console.log(reverseArray);
 for (let i = 1; i <= 10; i++) {
   console.log(i * 2);
 }
+
+// Remove duplicates from an array
+
+const array2 = [10, 20, 30, 30, 10, 40, 50, 40, 60, 50];
+const removeDublicate = [...new Set(array2)];
+console.log("Remoe", removeDublicate);
