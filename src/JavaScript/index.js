@@ -40,3 +40,31 @@ for (let i = array4.length - 1; i >= 0; i--) {
 
 const array5 = ["s", "a", "t", "y", "a", "m", "s"];
 console.log(removeDublicateValue(array5));
+
+// Date: 23/04/2025
+console.log("23-04-2025");
+
+const array6 = [100, 90, 23, 10, 52, 40, 30];
+
+for (let i = array6.length - 1; i >= 0; i--) {
+  console.log(array6[i]);
+}
+
+const array7 = ["s", "a", "t", "y", "a", "m"];
+
+for (let i = array7.length - 1; i >= 0; i--) {
+  console.log(array7[i]);
+}
+
+// Remove dublicate key Words & Dublicate Number
+
+const array8 = [1, 2, 3, 45, 5, 6, 7, 8, 7, 1, 3];
+console.log(...new Set(array8));
+
+// for Function
+
+function removeDublicateItems(array) {
+  return array.filter((itm, index, self) => self.indexOf(itm) === index);
+}
+
+console.log(removeDublicateItems(array8));
