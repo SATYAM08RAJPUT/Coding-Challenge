@@ -84,3 +84,12 @@ function flattenDeep(arr) {
   );
 }
 console.log("by Funtion Solve for nexted Array", flattenDeep(array9));
+
+// Add array items:
+const array10 = [10, 20];
+console.log("is Array Value:", Array.isArray(array10));
+
+function addsome(arr) {
+  return arr.reduce((acc, val) => acc + val, 0);
+}
+console.log(addsome(array10));
