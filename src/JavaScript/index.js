@@ -68,3 +68,19 @@ function removeDublicateItems(array) {
 }
 
 console.log(removeDublicateItems(array8));
+
+// Flatten a nested array
+console.log("Nested Array");
+const array9 = [10, 20, 30, 40, 50, [(10, 20, [3, 4, 5, [100, 200]])]];
+console.log(array9.flat(3));
+
+// with the  help of coding:
+
+function flattenDeep(arr) {
+  return arr.reduce(
+    (acc, val) =>
+      Array.isArray(val) ? acc.concat(flattenDeep(val)) : acc.concat(val),
+    []
+  );
+}
+console.log("by Funtion Solve for nexted Array", flattenDeep(array9));
