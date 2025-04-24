@@ -93,3 +93,20 @@ function addsome(arr) {
   return arr.reduce((acc, val) => acc + val, 0);
 }
 console.log(addsome(array10));
+
+// Date: 24/05/2025
+
+console.log("Yesterday, Nexted Pratices");
+
+const array11 = [10, 20, 30, 40, [1, 2, 5, [89, 77]]];
+console.log(array11);
+console.log(array11.flat(3));
+
+function nextedPratices(arr) {
+  return arr.reduce(
+    (acc, val) =>
+      Array.isArray(val) ? acc.concat(nextedPratices(val)) : acc.concat(val),
+    []
+  );
+}
+console.log("Nexted array solve with Function Logic", nextedPratices(array11));
