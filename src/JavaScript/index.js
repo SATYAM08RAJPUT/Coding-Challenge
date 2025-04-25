@@ -110,3 +110,24 @@ function nextedPratices(arr) {
   );
 }
 console.log("Nexted array solve with Function Logic", nextedPratices(array11));
+
+// for reverse string
+const array12 = [100, 90, 80, 70, 60, 0, 40, 30, 20, 10];
+
+for (let i = array12.length - 1; i >= 0; i--) {
+  console.log("reverseArray", array12[i]);
+}
+
+const array13 = [51, 52, 63, 521, 52, 51, 60];
+console.log("Remove Dublicate items:--", ...new Set(array13));
+
+// Date 25-04-2025
+console.log("25-04-2025");
+
+const array14 = [10, 20, 30, 40, 50];
+const array15 = [50, 10, 60, 78];
+
+// concating if array
+
+const array16 = array14.concat(array15);
+console.log("concating", ...new Set(array16));
