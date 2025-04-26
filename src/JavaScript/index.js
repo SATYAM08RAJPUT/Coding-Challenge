@@ -143,3 +143,37 @@ const array18 = [21, 22, 23, 24, 25, 26];
 const array19 = [...array17, ...array18];
 console.log("array Spread Opertor:-", array19);
 console.log("array by concating:", array17.concat(array18));
+
+// Concating Array:
+
+function concatingArray(arr1, arr2) {
+  let result = [];
+
+  for (let item of arr1) {
+    result.push(item);
+  }
+
+  for (let item of arr2) {
+    result.push(item);
+  }
+
+  return result;
+}
+
+const a = [10, 20, 30];
+const b = [40, 50, 60];
+console.log("with the help of fucntion:-", concatingArray(a, b));
+
+// concept for "🔥 for...of vs for...in 🔥"
+
+const array20 = [0, 1, 2, 3, 4, 5];
+
+for (let item of array20) {
+  console.log("item", item);
+}
+
+const obj1 = { a: "1", b: "2" };
+
+for (let key in obj1) {
+  console.log("for in", key, obj1[key]);
+}
