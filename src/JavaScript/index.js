@@ -131,3 +131,15 @@ const array15 = [50, 10, 60, 78];
 
 const array16 = array14.concat(array15);
 console.log("concating", ...new Set(array16));
+
+// Date -26/04/2025
+
+console.log("Date:26/04/2025");
+// join two array by Spread Operator:
+
+const array17 = [11, 12, 13, 14, 15];
+const array18 = [21, 22, 23, 24, 25, 26];
+
+const array19 = [...array17, ...array18];
+console.log("array Spread Opertor:-", array19);
+console.log("array by concating:", array17.concat(array18));
