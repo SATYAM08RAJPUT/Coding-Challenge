@@ -216,3 +216,7 @@ function makeClearNexted(arr) {
 }
 
 console.log("by fuction", makeClearNexted(array23));
+
+// Find missing number from a sequence
+
+console.log("Find missing number from a sequence");
