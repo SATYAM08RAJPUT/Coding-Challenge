@@ -177,3 +177,6 @@ const obj1 = { a: "1", b: "2" };
 for (let key in obj1) {
   console.log("for in", key, obj1[key]);
 }
+
+// Date-28/04/2025
+console.log("Date-28/04/2025");
