@@ -200,3 +200,19 @@ function removeItemDublicate(arr) {
   return arr.filter((item, index, self) => self.indexOf(item) === index);
 }
 console.log("By help of function", removeItemDublicate(array22));
+
+// Working on Nested array:
+
+const array23 = [10, 20, [20, 52, 1, [85, 74, 78, [52, 42]]]];
+
+console.log(array23.flat(3));
+
+function makeClearNexted(arr) {
+  return arr.reduce(
+    (acc, val) =>
+      Array.isArray(val) ? acc.concat(makeClearNexted(val)) : acc.concat(val),
+    []
+  );
+}
+
+console.log("by fuction", makeClearNexted(array23));
