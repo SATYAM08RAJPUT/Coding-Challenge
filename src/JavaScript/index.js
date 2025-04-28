@@ -180,3 +180,23 @@ for (let key in obj1) {
 
 // Date-28/04/2025
 console.log("Date-28/04/2025");
+
+// How can I reverse a string from a array
+
+const array21 = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+
+for (let i = array21.length; i >= 0; i--) {
+  console.log("Reverse String Pre", i);
+}
+
+// How can I remove Dublicate array values:
+// This is with the help of array method:
+const array22 = [10, 20, 10, 30, 40, 50, 20];
+console.log(...new Set(array22));
+
+// now Can I make a fucntion to resolve it.
+
+function removeItemDublicate(arr) {
+  return arr.filter((item, index, self) => self.indexOf(item) === index);
+}
+console.log("By help of function", removeItemDublicate(array22));
