@@ -274,3 +274,13 @@ function nextedItems(arr) {
   );
 }
 console.log("by fuctions:-", nextedItems(array27));
+
+// Remove Falsy Values from Array
+
+const array28 = [10, 20, 0, false, undefined, ""];
+
+function removFalsyValue(arr) {
+  return arr.filter(Boolean);
+}
+
+console.log("remove falsy value", removFalsyValue(array28));
