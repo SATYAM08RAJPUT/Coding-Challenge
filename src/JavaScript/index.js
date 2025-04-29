@@ -239,3 +239,21 @@ function findMaxNumber(arr) {
   };
 }
 console.log("I am finding maximun Number:-", findMaxNumber(array25));
+
+// Remove Dublicate Items from array;
+
+const array26 = [10, 20, 10, 30, 40, 50, 40, 60];
+
+console.log("Remove Dublicate Items", ...new Set(array26));
+
+// remove by manual
+
+function removeArrayItem(arr) {
+  let result = [];
+  for (let val of arr) {
+    if (!result.includes(val)) result.push(val);
+  }
+  return result;
+}
+
+console.log("Remove itms from array by manual fun", removeArrayItem(array26));
