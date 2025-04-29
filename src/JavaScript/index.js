@@ -257,3 +257,20 @@ function removeArrayItem(arr) {
 }
 
 console.log("Remove itms from array by manual fun", removeArrayItem(array26));
+
+// nexted array
+
+const array27 = [10, 20, [30, 40, [50, 60, [70, 80, [90, 100]]]]];
+
+console.log("flat array by method", array27.flat(5));
+
+// by fuctions:-
+
+function nextedItems(arr) {
+  return arr.reduce(
+    (acc, val) =>
+      Array.isArray(val) ? acc.concat(nextedItems(val)) : acc.concat(val),
+    []
+  );
+}
+console.log("by fuctions:-", nextedItems(array27));
