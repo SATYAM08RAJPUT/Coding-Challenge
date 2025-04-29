@@ -217,6 +217,25 @@ function makeClearNexted(arr) {
 
 console.log("by fuction", makeClearNexted(array23));
 
-// Find missing number from a sequence
+// Date: 29-04-2025
+console.log("Date", "29/04/2025");
 
-console.log("Find missing number from a sequence");
+const array24 = [2010, 2020, 2030, 2040];
+
+// By fucntion
+
+for (let i = array24.length - 1; i >= 0; i--) {
+  console.log("Reverse a string:- ", array24[i]);
+}
+
+// How can I Find a maximum &n Minimum
+
+const array25 = [10, 20, 50, 74, 10];
+
+function findMaxNumber(arr) {
+  return {
+    max: Math.max(...arr),
+    min: Math.min(...arr),
+  };
+}
+console.log("I am finding maximun Number:-", findMaxNumber(array25));
