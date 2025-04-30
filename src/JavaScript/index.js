@@ -321,3 +321,10 @@ var hoistingValue3 = 10;
 console.log(hoistingValue3);
 
 // in fuctions
+
+function run() {
+  console.log(a);
+  var a = 100;
+  console.log("a value:-", a);
+}
+run();
