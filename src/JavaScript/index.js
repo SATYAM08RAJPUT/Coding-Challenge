@@ -284,3 +284,6 @@ function removFalsyValue(arr) {
 }
 
 console.log("remove falsy value", removFalsyValue(array28));
+
+// Date: 30/04/2025
+console.log("Hoisting");
