@@ -310,6 +310,14 @@ function greet1() {
   var a = 10;
 }
 
+// next Questions
 hoistingValue2 = 100;
 console.log("check Valuing", hoistingValue2);
 var hoistingValue2;
+
+//shadowing with let & var
+
+var hoistingValue3 = 10;
+console.log(hoistingValue3);
+
+// in fuctions
