@@ -286,4 +286,30 @@ function removFalsyValue(arr) {
 console.log("remove falsy value", removFalsyValue(array28));
 
 // Date: 30/04/2025
-console.log("Hoisting");
+// Hoisting Topic
+console.log("Hoisting Topic");
+
+// Variable Hoisting & Fucntion Hoisting
+
+console.log("Variable Hoiitng");
+console.log("Hoisting Behavior :-", hoistingValue1);
+var hoistingValue1 = 10;
+
+// Function hoisting
+
+greet();
+function greet() {
+  console.log("Function Hoisting");
+}
+
+// Second Example of fuction Hoisting
+
+greet1();
+function greet1() {
+  console.log(a);
+  var a = 10;
+}
+
+hoistingValue2 = 100;
+console.log("check Valuing", hoistingValue2);
+var hoistingValue2;
