@@ -330,3 +330,10 @@ function run() {
 run();
 
 console.log("Hoisting complete");
+
+console.log("Date-02/05/2025");
+const array29 = [10, 20, 30];
+
+for (let i = array29.length; i <= 0; i--) {
+  console.log(i);
+}
