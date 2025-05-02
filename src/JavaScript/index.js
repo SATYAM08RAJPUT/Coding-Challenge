@@ -328,3 +328,5 @@ function run() {
   console.log("a value:-", a);
 }
 run();
+
+console.log("Hoisting complete");
