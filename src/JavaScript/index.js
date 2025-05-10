@@ -352,3 +352,9 @@ for (let i = array30.length - 1; i >= 0; i--) {
 //  By a Method of Reverse String:-+
 
 console.log(array30.reverse());
+
+// How can I remove a dublicate array Items:
+
+const array31 = [10, 20, 30, 20, 30, 50, 40, 10, 500];
+
+console.log("remove Dublicate Array:-", ...new Set(array31));
