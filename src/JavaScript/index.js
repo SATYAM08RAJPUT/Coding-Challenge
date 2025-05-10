@@ -339,3 +339,16 @@ for (let i = array29.length; i <= 0; i--) {
 }
 
 // Date:10/05/2025
+console.log("Date:-10/05/2025");
+
+const array30 = [10, 20, 30, 40, 50];
+let array30Store = [];
+for (let i = array30.length - 1; i >= 0; i--) {
+  console.log("Array 30 reverse String:-", array30[i]);
+  array30Store.push(array30[i]);
+  console.log("Store by a array:-", array30Store);
+}
+
+//  By a Method of Reverse String:-+
+
+console.log(array30.reverse());
