@@ -369,3 +369,16 @@ const array32 = "Hello Satyam Rajput";
 
 const reverseString = array32.split("").reverse().join("");
 console.log("ReverseString:-", reverseString);
+
+//Find the Largest Number in an Array
+
+const array33 = [100, 200, 300, 400, 500];
+
+const findMaxNumbers = Math.max(...array33);
+console.log("findMaxNumber", findMaxNumbers);
+
+//Find the Lowerest Number in an Array
+
+const array34 = [10, 20, 5, 0, 7, 8];
+const minNumber = Math.min(...array34);
+console.log("minNumber", minNumber);
