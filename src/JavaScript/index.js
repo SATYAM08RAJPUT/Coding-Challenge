@@ -362,3 +362,10 @@ console.log("remove Dublicate Array:-", ...new Set(array31));
 // Date: -11/05/2025
 
 console.log("Date: -", "11 / 05 / 2025");
+
+// Write a Questions of ""Hello Satyam Rajput" Give me Reverse String
+
+const array32 = "Hello Satyam Rajput";
+
+const reverseString = array32.split("").reverse().join("");
+console.log("ReverseString:-", reverseString);
