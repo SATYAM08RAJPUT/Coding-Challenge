@@ -358,3 +358,7 @@ console.log(array30.reverse());
 const array31 = [10, 20, 30, 20, 30, 50, 40, 10, 500];
 
 console.log("remove Dublicate Array:-", ...new Set(array31));
+
+// Date: -11/05/2025
+
+console.log("Date: -", "11 / 05 / 2025");
