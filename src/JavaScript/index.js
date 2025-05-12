@@ -403,3 +403,18 @@ console.log("Date:-", "12/05/2025");
 
 //  call(), apply(), and bind()
 console.log("Concept of  call(), apply(), and bind()");
+
+const person = {
+  name: "alice",
+  greet: function (greeting) {
+    console.log(`${greeting}, my name is ${this.name}`);
+  },
+};
+
+const anotherName = { name: "Bob" };
+
+person.greet.call(anotherName, "hi");
+person.greet.apply(anotherName, ["Hello"]);
+
+const docunBid = person.greet.bind(anotherName, "hiiii");
+docunBid();
