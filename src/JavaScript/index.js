@@ -397,3 +397,6 @@ for (let char of array35) {
 
 console.log("Vowels found:", colectVowels);
 console.log("Number of vowels:", colectVowels.length);
+
+// Date: 12/05/2025
+console.log("Date:-", "12/05/2025");
