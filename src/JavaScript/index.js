@@ -400,3 +400,6 @@ console.log("Number of vowels:", colectVowels.length);
 
 // Date: 12/05/2025
 console.log("Date:-", "12/05/2025");
+
+//  call(), apply(), and bind()
+console.log("Concept of  call(), apply(), and bind()");
