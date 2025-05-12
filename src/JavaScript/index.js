@@ -382,3 +382,18 @@ console.log("findMaxNumber", findMaxNumbers);
 const array34 = [10, 20, 5, 0, 7, 8];
 const minNumber = Math.min(...array34);
 console.log("minNumber", minNumber);
+
+// Count the Number of Vowels in a String
+
+const array35 = ["a", "i", "b", "r", "o", "p", "s", "q"];
+const VowelItenms = ["a", "e", "i", "o", " u"];
+const colectVowels = [];
+
+for (let char of array35) {
+  if (VowelItenms.includes(char)) {
+    colectVowels.push(char);
+  }
+}
+
+console.log("Vowels found:", colectVowels);
+console.log("Number of vowels:", colectVowels.length);
