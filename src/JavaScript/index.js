@@ -422,9 +422,9 @@ docunBid();
 // Date: 16-05-2025
 console.log("Date:-", "16-05-2025");
 
-// How can I reverse String
-// const array36 = [10, 20, 30, 40, 50, 60];
+How can I reverse String
+const array36 = [10, 20, 30, 40, 50, 60];
 
-// for (let i = array36.length - 1; i >= 0; i--) {
-//   console.log(array36[i]);
-// }
+for (let i = array36.length - 1; i >= 0; i--) {
+  console.log(array36[i]);
+}
