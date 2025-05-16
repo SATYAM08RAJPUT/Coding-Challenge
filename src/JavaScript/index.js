@@ -418,3 +418,6 @@ person.greet.apply(anotherName, ["Hello"]);
 
 const docunBid = person.greet.bind(anotherName, "hiiii");
 docunBid();
+
+// Date: 16-05-2025
+console.log("Date:-", "16-05-2025");
