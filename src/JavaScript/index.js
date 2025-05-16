@@ -422,9 +422,15 @@ docunBid();
 // Date: 16-05-2025
 console.log("Date:-", "16-05-2025");
 
-How can I reverse String
+// How can I reverse String
 const array36 = [10, 20, 30, 40, 50, 60];
 
 for (let i = array36.length - 1; i >= 0; i--) {
   console.log(array36[i]);
 }
+
+// how Can I remove dubpicate values
+
+const array37 = ["1", "20", "1", "2", "3", "6", "47", "8", "8", "0"];
+const findValue = [...new Set(array37)];
+console.log("findValue", findValue);
