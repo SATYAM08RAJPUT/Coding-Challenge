@@ -434,3 +434,6 @@ for (let i = array36.length - 1; i >= 0; i--) {
 const array37 = ["1", "20", "1", "2", "3", "6", "47", "8", "8", "0"];
 const findValue = [...new Set(array37)];
 console.log("findValue", findValue);
+
+// Date: 17/05/2025
+console.log("Date:-", "17/05/2025");
