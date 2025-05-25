@@ -441,3 +441,9 @@ console.log("Date:-", "17/05/2025");
 // Date: 25-05-2025
 
 console.log("25/05/2025");
+
+const array38 = [10, 20, 50, 60, 710, 80];
+
+for (let i = array37.length - 1; i >= 0; i--) {
+  console.log("Reversr string of array37:-", array38[i]);
+}
