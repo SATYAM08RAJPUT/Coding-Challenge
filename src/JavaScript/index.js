@@ -455,3 +455,9 @@ const array39 = [1, 2, 3, 3, 2, 1, 0];
 const removeStringofarray39 = [...new Set(array39)];
 
 console.log("Reverse String:-", removeStringofarray39);
+
+//How do you check if a value is an array?
+
+const array40 = [10, 50, 100, 500];
+const checkNumber = array40.includes(5000);
+console.log("check Number:-", checkNumber);
