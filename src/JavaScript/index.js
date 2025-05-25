@@ -437,3 +437,7 @@ console.log("findValue", findValue);
 
 // Date: 17/05/2025
 console.log("Date:-", "17/05/2025");
+
+// Date: 25-05-2025
+
+console.log("25/05/2025");
