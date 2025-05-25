@@ -447,3 +447,11 @@ const array38 = [10, 20, 50, 60, 710, 80];
 for (let i = array37.length - 1; i >= 0; i--) {
   console.log("Reversr string of array37:-", array38[i]);
 }
+
+// Remove dublicate array item
+
+const array39 = [1, 2, 3, 3, 2, 1, 0];
+
+const removeStringofarray39 = [...new Set(array39)];
+
+console.log("Reverse String:-", removeStringofarray39);
