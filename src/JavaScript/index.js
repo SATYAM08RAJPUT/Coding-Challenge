@@ -466,3 +466,5 @@ console.log("check Number:-", checkNumber);
 console.log("29-05-2025");
 
 const array41 = [10, 50, 60];
+
+const array42 = [58, 20];
