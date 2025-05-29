@@ -463,3 +463,4 @@ const checkNumber = array40.includes(5000);
 console.log("check Number:-", checkNumber);
 
 // Date : 29-05-2025
+console.log("29-05-2025");
